@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="#">Globex Employee Payroll System</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Finance</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">View<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Directors</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Locations</a></li>
+            <li class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Albury</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Options<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Back to General Employee</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-lg-offset-0">
+      <h1 class="text-center">Employees List</h1>
+    </div>
+  </div>
+  <hr>
+</div>
+<div class="container">
+  <div class="row text-center"> </div>
+  <hr>
+  <div class="row">
+    <div class="text-justify col-sm-4"> List employees by department. </div>
+    <div class="col-sm-4 text-justify"> List Employees by Grade.</div>
+    <div class="col-sm-4 text-justify"> View All Employees </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="text-center col-md-12">
+      <div class="well"><strong> You are viewing Employees of IT Department in Albury.</strong></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <h4>Create</h4>
+      <p>Create or update new employee </p>
+      <button type="button" class="btn btn-info btn-sm">Create</button>
+      <button type="button" class="btn btn-success btn-sm">Search by ID</button>
+    </div>
+    <div class="text-center col-sm-4">
+      <h4>Finance </h4>
+      <p>Financial transaction for IT department</p>
+      <span class="label label-warning">Approve</span><span class="label label-danger">Cancel</span> </div>
+    <div class="text-center col-sm-4">
+      <strong>Events</strong>
+      <p>Christmas leave in 12 days.</p>
+      <div class="row"> </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="text-center col-md-6 col-md-offset-3">
+      <h4>GEPS </h4>
+      <p>Copyright &copy; 2018 &middot; All Rights Reserved &middot; <a href="http://yourwebsite.com/" >My Website</a></p>
+    </div>
+  </div>
+  <hr>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
